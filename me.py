@@ -19,7 +19,7 @@ def connection_database():
         messagebox.showerror('Error','Please Accept Terms $ Conditions')
     else:
         try:
-            conn=pymysql.connect(host='localhost',user='root',password='Awine@23')
+            conn=pymysql.connect(host='localhost',user='root',password='Enter Your Password')
             mycursor=conn.cursor()
         except:
             messagebox.showerror('Error','Connection Failed, Please Try Again')
